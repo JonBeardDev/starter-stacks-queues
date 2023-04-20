@@ -24,6 +24,7 @@ class Queue {
 
     // Make the new node the last item on the queue
     this.last = newNode;
+    return this;
   }
 
   dequeue() {
